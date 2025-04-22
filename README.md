@@ -50,3 +50,7 @@ m: number of features
 y: Target vector of shape (n,1)
 
 β: Parameter vector (coefficients) of shape (m+1,1)
+
+
+After estimating β, the target variable y using the below equation:
+<pre> y = Xβ </pre>
