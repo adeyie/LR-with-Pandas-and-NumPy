@@ -40,7 +40,7 @@ The intercept and coefficients of the LR model were determined using the followi
 <pre> β = (XᵀX)⁻¹ Xᵀy </pre>
 
 where,
-𝑋
+
 X: Feature matrix of shape (𝑛,𝑚+1) [with a column of ones for intercept] 
 
 n: number of observations in train data
