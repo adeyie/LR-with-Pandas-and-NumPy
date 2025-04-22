@@ -51,6 +51,11 @@ y: Target vector of shape (n,1)
 
 β: Parameter vector (coefficients) of shape (m+1,1)
 
-
 After estimating β, the target variable y using the below equation:
 <pre> y = Xβ </pre>
+
+## Evaluation Metrics
+The evaluation metrics, Mean Squared Error (MSE) and Mean Absolute Error (MAE), were determined for the test data. 
+
+## Concluding Remarks
+In conclusion, this project demonstrated solving a linear regression problem using only Pandas and NumPy. By applying fundamental machine learning concepts, I gained insights into data preprocessing, model training, and evaluation, reinforcing key programming and statistical principles.
