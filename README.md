@@ -1,6 +1,6 @@
-# Linear Regression using only Pandas and NumPy
+# Linear Regression (LR) using only Pandas and NumPy
 ## Overview
-In real-world scenarios, we often face constraints like limited time, resources, and tools. However, the work must get done. This project embraces that mindset. By relying solely on two essential libraries (Pandas and NumPy) I solved the classic machine learning problem: Linear Regression.
+In real-world scenarios, we often face constraints like limited time, resources, and tools. However, the work must get done. This project embraces that mindset. By relying solely on two essential libraries (Pandas and NumPy) I solved the classic machine learning problem: Linear Regression (LR).
 The goal was to explore how problems can be solved effectively even with limited tools. Instead of advanced machine learning libraries like Scikit-learn, the project builds everything step by step — including data preprocessing, manual calculations, model training, and evaluation metrics.
 This approach demonstrates the power of fundamental concepts while enhancing Python coding skills, algorithmic thinking, and a deeper understanding of the mathematical foundation of linear regression and machine learning techniques.
 
@@ -24,14 +24,18 @@ This approach demonstrates the power of fundamental concepts while enhancing Pyt
 
 ## Data Preprocessing and Cleaning
 * Used isnull() to check for missing values, and no missing values were found in the dataset.
-
+  
+          All steps from this point forward are based on the training data, while evaluation metrics are determined using the test data.
+  
 * The dataset was split into training and testing sets, with 80% of the data used for training and the remaining 20% for testing.
+* 
 * Determined the correlation between features and the target variable using Pearson correlation, and removed two (sex and s2)features with correlation values between -0.2 and 0.2. 
 
 * In addition, Pearson correlation was used to examine the linear relationships between features. No features were removed in this step, as the absolute correlation between any two features did not exceed 0.8.
 
 * The dataset was scaled to the range [0,1], rescaling each feature by subtracting the minimum value and dividing by the range (maximum - minimum) to ensure uniformity across features.
 
-
+## Model Training
+The LR 
 <pre> β = (XᵀX)⁻¹ Xᵀy </pre>
 
