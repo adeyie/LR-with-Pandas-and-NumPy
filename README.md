@@ -39,3 +39,10 @@ This approach demonstrates the power of fundamental concepts while enhancing Pyt
 The intercept and coefficients of the LR model were determined using the following matrix form equation.
 <pre> β = (XᵀX)⁻¹ Xᵀy </pre>
 
+where,
+𝑋
+X: Feature matrix of shape (𝑛,𝑚+1) [with a column of ones for intercept] 
+n: number of observations in train data
+m: number of features
+y: Target vector of shape (n,1)
+β: Parameter vector (coefficients) of shape (m+1,1)
