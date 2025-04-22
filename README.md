@@ -8,3 +8,17 @@ This approach demonstrates the power of fundamental concepts while enhancing Pyt
 ## Packages used
 * numpy
 * pandas
+
+## Key Highlights
+* Checked for missing values
+* Split into train and test
+* Remove irrelevant features
+* Determine he intercept and coefficients
+* Check MSE and MAE
+
+## Dataset
+'load_diabetes' data from sklearn.datasets is used for the project. Dataset has:
+* 10 numerical features
+* one numerical target variable
+* 442 observations
+
