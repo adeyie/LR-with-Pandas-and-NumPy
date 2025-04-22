@@ -26,4 +26,4 @@ This approach demonstrates the power of fundamental concepts while enhancing Pyt
 Used isnull() to check for missing values, and no missing values were found in the dataset.
 Determined the correlation between features and the target variable using Pearson correlation, and removed two (sex and s2)features with correlation values between -0.2 and 0.2. 
 
-<pre> θ = (XᵀX)⁻¹ Xᵀy </pre>
+<pre> β = (XᵀX)⁻¹ Xᵀy </pre>
