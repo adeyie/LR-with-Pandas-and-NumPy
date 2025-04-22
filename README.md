@@ -29,6 +29,8 @@ This approach demonstrates the power of fundamental concepts while enhancing Pyt
 
 * In addition, Pearson correlation was used to examine the linear relationships between features. No features were removed in this step, as the absolute correlation between any two features did not exceed 0.8.
 
+* The dataset was scaled to the range [0,1], rescaling each feature by subtracting the minimum value and dividing by the range (maximum - minimum) to ensure uniformity across features.
+
 
 <pre> β = (XᵀX)⁻¹ Xᵀy </pre>
 
