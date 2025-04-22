@@ -28,7 +28,7 @@ This approach demonstrates the power of fundamental concepts while enhancing Pyt
 ### All steps from this point forward are based on the training data, while evaluation metrics are determined using the test data.
   
 * The dataset was split into training and testing sets, with 80% of the data used for training and the remaining 20% for testing.
-* 
+  
 * Determined the correlation between features and the target variable using Pearson correlation, and removed two (sex and s2)features with correlation values between -0.2 and 0.2. 
 
 * In addition, Pearson correlation was used to examine the linear relationships between features. No features were removed in this step, as the absolute correlation between any two features did not exceed 0.8.
