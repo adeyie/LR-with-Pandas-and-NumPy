@@ -1,7 +1,7 @@
 # Linear Regression using only Pandas and NumPy
 ## Overview
-In real-world scenarios, we often face constraints like limited time, resources, and tools. However, the work must get done. This project embraces that mindset. By relying solely on two essential libraries (Pandas and NumPy) I solved the classic machine learning problem of Linear Regression.
-The goal was to explore how problems can be solved effectively even with limited tools and knowledge. Instead of advanced machine learning libraries like Scikit-learn, the project builds everything step by step — including data preprocessing, manual calculations, model training, and evaluation metrics.
+In real-world scenarios, we often face constraints like limited time, resources, and tools. However, the work must get done. This project embraces that mindset. By relying solely on two essential libraries (Pandas and NumPy) I solved the classic machine learning problem: Linear Regression.
+The goal was to explore how problems can be solved effectively even with limited tools. Instead of advanced machine learning libraries like Scikit-learn, the project builds everything step by step — including data preprocessing, manual calculations, model training, and evaluation metrics.
 This approach demonstrates the power of fundamental concepts while enhancing Python coding skills, algorithmic thinking, and a deeper understanding of the mathematical foundation of linear regression and machine learning techniques.
 
 ## Python version: 3.7.4
@@ -26,4 +26,4 @@ This approach demonstrates the power of fundamental concepts while enhancing Pyt
 Used isnull() to check for missing values, and no missing values were found in the dataset.
 Determined the correlation between features and the target variable using Pearson correlation, and removed two (sex and s2)features with correlation values between -0.2 and 0.2. 
 
-<pre> ``` θ = (XᵀX)⁻¹ Xᵀy ``` </pre>
+<pre> θ = (XᵀX)⁻¹ Xᵀy </pre>
