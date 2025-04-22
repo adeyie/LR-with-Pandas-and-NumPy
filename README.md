@@ -25,7 +25,7 @@ This approach demonstrates the power of fundamental concepts while enhancing Pyt
 ## Data Preprocessing and Cleaning
 * Used isnull() to check for missing values, and no missing values were found in the dataset.
   
-### All steps from this point forward are based on the training data, while evaluation metrics are determined using the test data.
+### All steps from this point forward are based on the training data and applied to test data also, while evaluation metrics are determined using the test data.
   
 * The dataset was split into training and testing sets, with 80% of the data used for training and the remaining 20% for testing.
   
