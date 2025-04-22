@@ -36,6 +36,6 @@ This approach demonstrates the power of fundamental concepts while enhancing Pyt
 * The dataset was scaled to the range [0,1], rescaling each feature by subtracting the minimum value and dividing by the range (maximum - minimum) to ensure uniformity across features.
 
 ## Model Training
-The LR 
+The intercept and coefficients of the LR model were determined using the following matrix form equation.
 <pre> β = (XᵀX)⁻¹ Xᵀy </pre>
 
