@@ -23,7 +23,12 @@ This approach demonstrates the power of fundamental concepts while enhancing Pyt
 * 442 observations
 
 ## Data Preprocessing and Cleaning
-Used isnull() to check for missing values, and no missing values were found in the dataset.
-Determined the correlation between features and the target variable using Pearson correlation, and removed two (sex and s2)features with correlation values between -0.2 and 0.2. 
+* Used isnull() to check for missing values, and no missing values were found in the dataset.
+
+* Determined the correlation between features and the target variable using Pearson correlation, and removed two (sex and s2)features with correlation values between -0.2 and 0.2. 
+
+* In addition, Pearson correlation was used to examine the linear relationships between features. No features were removed in this step, as the absolute correlation between any two features did not exceed 0.8.
+
 
 <pre> β = (XᵀX)⁻¹ Xᵀy </pre>
+
