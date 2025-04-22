@@ -4,3 +4,7 @@ In real-world scenarios, we often face constraints like limited time, resources,
 The goal was to explore how problems can be solved effectively even with limited tools and knowledge. Instead of advanced machine learning libraries like Scikit-learn, the project builds everything step by step — including data preprocessing, manual calculations, model training, and evaluation metrics.
 This approach demonstrates the power of fundamental concepts while enhancing Python coding skills, algorithmic thinking, and a deeper understanding of the mathematical foundation of linear regression and machine learning techniques.
 
+## Python version: 3.7.4
+## Packages used
+* numpy
+* pandas
