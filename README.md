@@ -22,3 +22,6 @@ This approach demonstrates the power of fundamental concepts while enhancing Pyt
 * one numerical target variable
 * 442 observations
 
+## Data Preprocessing and Cleaning
+Used isnull() to check for missing values, and no missing values were found in the dataset.
+Determined the correlation between features and the target variable using Pearson correlation, and removed features with correlation values between -0.2 and 0.2.
